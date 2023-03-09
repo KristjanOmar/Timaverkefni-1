@@ -2,7 +2,7 @@
 
 ## 1. Serial Monitor "Hello World!"
 
-´´´cpp
+```cpp
 void setup() {
   Serial.begin(9600); 
 
@@ -12,13 +12,13 @@ void loop() {
   Serial.println("Hello from Arduino");
 
 }
-´´´
+```
 
 ## 2. Hello World endurtekið (aftur og aftur)
 
 ### 1.
 
-´´´cpp
+```cpp
 void setup() {
   Serial.begin(9600);
 }
@@ -32,11 +32,11 @@ void loop() {
     Serial.println("World");
   }
 }
-´´´
+```
 
 ### 2.
 
-´´´cpp
+```cpp
 int k = 10;
 bool h = true;
 
@@ -55,13 +55,13 @@ void loop() {
   };
 
 }
-´´´
+```
 
 ## 3. Halló og bless
 
 ### 1.
 
-´´´cpp
+```cpp
 char stafur = 0;
 
 void setup() {
@@ -79,11 +79,11 @@ void loop() {
     Serial.println("bless");
   }
 }
-´´´
+```
 
 ### 2.
 
-´´´cpp
+```cpp
 char stafur = 0;
 
 void setup() {
@@ -107,13 +107,13 @@ void loop() {
       break;
   }
 }
-´´´
+```
 
 ## 4. Í hástafi
 
 ### 1.
 
-´´´cpp
+```cpp
 void setup() {
   Serial.begin(9600);
   Serial.println("");
@@ -126,6 +126,6 @@ void loop() {
   Serial.println("Fjoldi stafa: ");Serial.print(strengur.length());
   Serial.println("\n\n");
 }
-´´´
+```
 
 Ef ég myndi vilja láta textann birtast aftur og aftur þá myndi ég nota while lúppu
