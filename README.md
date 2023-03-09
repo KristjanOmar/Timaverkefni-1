@@ -12,6 +12,8 @@ void loop() {
 }
 ```
 
+println prentar alltaf í nýrri línu en print heldur áfram að prenta í sömu línu
+
 ## 2. Hello World endurtekið (aftur og aftur)
 
 ### 1.
